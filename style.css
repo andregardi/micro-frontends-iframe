@@ -1,0 +1,8 @@
+body {
+  display: flex;
+  margin: 0;
+}
+iframe {
+  flex: 1;
+  border: none;
+}

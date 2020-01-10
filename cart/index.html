@@ -1,0 +1,36 @@
+<header>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</header>
+
+<div id="main">
+  <nav
+    class="navbar bg-dark text-white"
+    style="background-color: #e3f2fd; margin-bottom:20px"
+  >
+    <h2>Shopping cart</h2>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+        <h5 class="card-title">Apples: {{ products.apple }}</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <h5 class="card-title">Bananas: {{ products.banana }}</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <h5 class="card-title">Oranges: {{ products.orange }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../EventBus/EventBus.js"></script>
+<script src="script.js"></script>
